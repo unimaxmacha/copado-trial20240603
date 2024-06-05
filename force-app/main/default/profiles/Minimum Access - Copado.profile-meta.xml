@@ -3,6 +3,11 @@
       xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
     <custom>true</custom>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Auto_parts__c.Parts_Desc__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Employee__c.Contact__c</field>
         <readable>true</readable>
@@ -22,6 +27,9 @@
         <field>Employee__c.Password__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>Auto_parts__c-Auto parts Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>Employee__c-Employee Layout</layout>
     </layoutAssignments>
