@@ -8,6 +8,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Auto_parts__c.Parts_Model1__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Employee__c.Contact__c</field>
         <readable>true</readable>
